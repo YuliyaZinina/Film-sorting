@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	font-family: sans-serif;
+	background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+	background-size: cover;
+}
+
+.film-list {
+	width: 500px;
+	margin: auto;
+	padding: 0;
+	font-size: 20px;
+	list-style: inside square;
+	background: #fff;
+	box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.film-list__sort {
+	display: inline-block;
+	width: 45%;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #efefef;
+	cursor: pointer;
+}
+
+.film-list__item {
+	padding: 20px;
+	border-bottom: 1px solid #efefef;
+}
+
+.film-list__item:last-child {
+	border-bottom: 0;
+}
+
+a {
+	color: #ffc600;
+	text-decoration: none;
+}
